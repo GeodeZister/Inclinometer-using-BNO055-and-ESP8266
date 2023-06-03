@@ -21,4 +21,12 @@ The code is well commented, and we welcome any contributions or suggestions for 
 
 Note: This repository only contains the source code. Make sure to install all necessary libraries and board definitions in your Arduino IDE or PlatformIO setup. Please check the comments in the code for further instructions.
 
+General view of the inclinometer:
+
+![image](https://github.com/GeodeZister/Inclinometer-using-BNO055-and-ESP8266/assets/97829206/cb0049b6-0d53-4f92-885b-2a3b3b15f21c)
+
+
+![image](https://github.com/GeodeZister/Inclinometer-using-BNO055-and-ESP8266/assets/97829206/8482cff5-7dae-4ad9-82f8-1a40cd405149)
+
+
 
