@@ -1,2 +1,19 @@
 # Inclinometer-using-BNO055-and-ESP8266
-This repository hosts code for an IoT-based inclinometer using BNO055 and ESP8266. The project measures tilt relative to gravity, applies sensor fusion for accuracy, and sends data to ThingSpeak for visualization. Additional features include temperature and humidity readings from an SHT2x sensor. Ideal for hobbyists, professionals, or learners.
+This repository contains the Arduino code for an inclinometer project based on the BNO055 sensor and the ESP8266 module. The purpose of this project is to measure the inclination or tilt of an object with respect to gravity and send this data to ThingSpeak for visualizing and monitoring.
+
+Key features:
+
+Uses BNO055, a 9-DOF sensor with onboard fusion algorithms.
+Calculates the pitch and roll angles to measure the inclination.
+Employs a basic form of sensor fusion, combining accelerometer and gyroscope data, to increase the accuracy of the measurements.
+Utilizes the SHT2x sensor to measure temperature and humidity for additional environmental information.
+Connects to the Wi-Fi network using the ESP8266 module and sends the data to ThingSpeak for real-time visualization and analysis.
+This code is perfect for hobbyists and professionals looking to integrate an inclinometer into their projects, or for those interested in learning more about sensor fusion and IoT data transmission.
+
+Note: Always ensure to enter your Wi-Fi and ThingSpeak channel details in the given variables. Be mindful to calibrate the BNO055 sensor for optimal performance.
+
+The code is well commented, and we welcome any contributions or suggestions for improvements. Enjoy measuring your world!
+
+Note: This repository only contains the source code. Make sure to install all necessary libraries and board definitions in your Arduino IDE or PlatformIO setup. Please check the comments in the code for further instructions.
+
+
